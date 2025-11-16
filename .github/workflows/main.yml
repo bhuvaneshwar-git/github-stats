@@ -38,8 +38,8 @@ jobs:
         python3 --version
         python3 generate_images.py
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ACCESS_TOKEN: ${{ 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 }}
+        GITHUB_TOKEN: ${{ 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 }}
         EXCLUDED: ${{ secrets.EXCLUDED }}
         EXCLUDED_LANGS: ${{ secrets.EXCLUDED_LANGS }}
         EXCLUDE_FORKED_REPOS: true
